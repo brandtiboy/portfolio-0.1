@@ -142,15 +142,33 @@ nav a:hover {
   display: grid;
   -ms-grid-columns: 25% 2fr;
       grid-template-columns: 25% 2fr;
-  -ms-grid-rows: 10% 1fr 1fr 1fr 1fr 1fr;
-      grid-template-rows: 10% 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 10% (1fr)[6];
+      grid-template-rows: 10% repeat(6, 1fr);
   grid-gap: 25px;
   margin-bottom: 15%;
+  color: #363636;
+}
+
+.cv h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: black;
+}
+
+.cv p {
+  font-size: 1rem;
+  line-height: 220%;
 }
 
 .cv .cv-box {
   background-color: #FAFAFA;
   border-radius: 15px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.cv .cv-box:hover {
+  background-color: #f3f3f3;
 }
 
 .cv .box1 {
@@ -187,17 +205,6 @@ nav a:hover {
   grid-row: 2/4;
 }
 
-.cv .box2 h3 {
-  font-size: 1.25rem;
-  font-weight: 600;
-  color: black;
-}
-
-.cv .box2 p {
-  font-size: 0.875rem;
-  line-height: 220%;
-}
-
 .cv .box3 {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
@@ -212,7 +219,22 @@ nav a:hover {
   -ms-grid-column-span: 1;
   grid-column: 1/2;
   -ms-grid-row: 3;
-  -ms-grid-row-span: 3;
-  grid-row: 3/6;
+  -ms-grid-row-span: 4;
+  grid-row: 3/7;
+  padding: 0 2% 4% 9%;
+  line-height: 220%;
+}
+
+.cv .box4 h3 {
+  margin: 15% 5% 5% 0;
+}
+
+.cv .box4 span {
+  font-size: 0.875rem;
+  color: #666666;
+}
+
+.cv .box4 a {
+  color: #363636;
 }
 /*# sourceMappingURL=style.css.map */

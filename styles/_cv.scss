@@ -1,14 +1,31 @@
 .cv {
     display: grid;
     grid-template-columns: 25% 2fr;
-    grid-template-rows: 10% 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10% repeat(6, 1fr);
     grid-gap: 25px;
     margin-bottom: 15%;
+    color: #363636;
+
+    h3 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: black;
+    }
+
+    p {
+        font-size: 1rem;
+        line-height: 220%;
+    }
 
     .cv-box {
         background-color: #FAFAFA;
         border-radius: 15px;
-    } 
+        transition: 0.3s;
+    }
+    
+    .cv-box:hover {
+        background-color: #f3f3f3;
+    }
 
     .box1 {
         text-align: center;
@@ -37,17 +54,6 @@
         padding: 2% 8% 2% 4%;
         grid-column: 2/3;
         grid-row: 2/4;
-
-        h3 {
-            font-size: 1.25rem;
-            font-weight: 600;
-            color: black;
-        }
-
-        p {
-            font-size: 0.875rem;
-            line-height: 220%;
-        }
     }
 
     .box3 {
@@ -57,6 +63,21 @@
 
     .box4 {
         grid-column: 1/2;
-        grid-row: 3/6;
+        grid-row: 3/7;
+        padding: 0 2% 4% 9%;
+        line-height: 220%;
+
+        h3 {
+            margin: 15% 5% 5% 0;
+        }
+
+        span {
+            font-size: 0.875rem;
+            color: #666666;
+        }
+
+        a {
+            color: #363636;
+        }
     }
 }

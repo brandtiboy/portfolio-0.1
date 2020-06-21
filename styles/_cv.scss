@@ -95,3 +95,30 @@
         background-size: cover;
     }
 }
+
+@media screen and (max-width: 1300px) {
+    .cv {
+        grid-template-columns: 1fr;
+        grid-template-rows: 10% 10% 2fr 1fr 1fr 1fr 1fr;
+
+        .section-h2 {
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+    
+        .cv-box {
+            grid-column: 1/2;
+
+        }
+    
+        .box1 {
+            grid-row: 2/3;
+        }
+
+        .box2 {
+            grid-row: 3/7;
+        }
+    }
+
+    
+}

@@ -148,6 +148,23 @@ nav #logo {
   grid-column: 1/3;
 }
 
+@media screen and (max-width: 1300px) {
+  .projekter {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 2fr 2fr;
+        grid-template-rows: 1fr 2fr 2fr;
+  }
+  .section-h2 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+  }
+}
+
 .cv {
   display: -ms-grid;
   display: grid;
@@ -265,5 +282,37 @@ nav #logo {
 .cv .box6 {
   background-image: url(../img/plant-placeholder.jpg);
   background-size: cover;
+}
+
+@media screen and (max-width: 1300px) {
+  .cv {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 10% 10% 2fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 10% 10% 2fr 1fr 1fr 1fr 1fr;
+  }
+  .cv .section-h2 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+  }
+  .cv .cv-box {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+  }
+  .cv .box1 {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
+  .cv .box2 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 4;
+    grid-row: 3/7;
+  }
 }
 /*# sourceMappingURL=style.css.map */

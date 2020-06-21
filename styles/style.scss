@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 3.75rem;
+    font-weight: 400;
+    color: #222222;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #767676;
+    line-height: 180%;
+}
+
+h3 > span {
+    font-style: italic;
+    color: #7EB1D7;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+p {
+    font-size: 0.875rem;
+    color: #1E1E1E;
+    line-height: 0.75rem;
+}
+
+li {
+    font-size: 1rem;
+    list-style-type: none;
+}
+
+a {
+    color: #575757;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+@import 'home';

@@ -53,6 +53,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #7EB1D7;
+}
+
 img {
   max-width: 100%;
 }
@@ -93,10 +97,6 @@ nav #logo {
   -webkit-box-flex: 5;
       -ms-flex: 5;
           flex: 5;
-}
-
-nav a:hover {
-  color: #7EB1D7;
 }
 
 .forside {
@@ -176,6 +176,7 @@ nav a:hover {
   border-radius: 15px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  padding: 2% 8% 2% 4%;
 }
 
 .cv .cv-box:hover {
@@ -207,7 +208,6 @@ nav a:hover {
 }
 
 .cv .box2 {
-  padding: 2% 8% 2% 4%;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
@@ -221,8 +221,8 @@ nav a:hover {
   -ms-grid-column-span: 1;
   grid-column: 2/3;
   -ms-grid-row: 4;
-  -ms-grid-row-span: 2;
-  grid-row: 4/6;
+  -ms-grid-row-span: 1;
+  grid-row: 4/5;
 }
 
 .cv .box4 {
@@ -247,5 +247,23 @@ nav a:hover {
 
 .cv .box4 a {
   color: #363636;
+}
+
+.cv .box4 a:hover {
+  color: #7EB1D7;
+}
+
+.cv .box5 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 3;
+  grid-row: 5/8;
+}
+
+.cv .box6 {
+  background-image: url(../img/plant-placeholder.jpg);
+  background-size: cover;
 }
 /*# sourceMappingURL=style.css.map */

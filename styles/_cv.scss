@@ -21,6 +21,7 @@
         background-color: #FAFAFA;
         border-radius: 15px;
         transition: 0.3s;
+        padding: 2% 8% 2% 4%;
     }
     
     .cv-box:hover {
@@ -51,14 +52,13 @@
     }
 
     .box2 {
-        padding: 2% 8% 2% 4%;
         grid-column: 2/3;
         grid-row: 2/4;
     }
 
     .box3 {
         grid-column: 2/3;
-        grid-row: 4/6;
+        grid-row: 4/5;
     }
 
     .box4 {
@@ -79,5 +79,19 @@
         a {
             color: #363636;
         }
+
+        a:hover {
+            color: #7EB1D7;
+        }
+    }
+
+    .box5 {
+        grid-column: 2/3;
+        grid-row: 5/8;
+    }
+
+    .box6 {
+        background-image: url(../img/plant-placeholder.jpg);
+        background-size: cover;
     }
 }

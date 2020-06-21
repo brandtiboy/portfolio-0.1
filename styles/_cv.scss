@@ -1,0 +1,62 @@
+.cv {
+    display: grid;
+    grid-template-columns: 25% 2fr;
+    grid-template-rows: 10% 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 25px;
+    margin-bottom: 15%;
+
+    .cv-box {
+        background-color: #FAFAFA;
+        border-radius: 15px;
+    } 
+
+    .box1 {
+        text-align: center;
+        padding: 10%;
+
+        .profile-img {
+            height: 160px;
+            width: 160px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        p {
+            font-size: 1rem;
+            font-weight: 600;
+            line-height: 180%;
+            color: #606060;
+
+            span {
+                font-weight: 400;
+            }
+        }
+    }
+
+    .box2 {
+        padding: 2% 8% 2% 4%;
+        grid-column: 2/3;
+        grid-row: 2/4;
+
+        h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: black;
+        }
+
+        p {
+            font-size: 0.875rem;
+            line-height: 220%;
+        }
+    }
+
+    .box3 {
+        grid-column: 2/3;
+        grid-row: 4/6;
+    }
+
+    .box4 {
+        grid-column: 1/2;
+        grid-row: 3/6;
+    }
+}

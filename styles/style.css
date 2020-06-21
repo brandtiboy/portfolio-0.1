@@ -91,6 +91,10 @@ nav #logo {
           flex: 5;
 }
 
+nav a:hover {
+  color: #7EB1D7;
+}
+
 .forside {
   margin-top: 10%;
 }
@@ -117,19 +121,98 @@ nav #logo {
   -ms-grid-rows: 1fr 2fr;
       grid-template-rows: 1fr 2fr;
   grid-gap: 25px;
-  margin-bottom: 15%;
+  margin-bottom: 10%;
 }
 
 .projekter .project-box {
   background-color: #C4C4C4;
 }
 
-.projekter .section-h2 {
+.section-h2 {
   font-weight: 600;
   font-size: 2rem;
-  padding: 3.2rem 0;
+  padding: 3rem 0;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-column: 1/3;
+}
+
+.cv {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 2fr;
+      grid-template-columns: 25% 2fr;
+  -ms-grid-rows: 10% 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 10% 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 25px;
+  margin-bottom: 15%;
+}
+
+.cv .cv-box {
+  background-color: #FAFAFA;
+  border-radius: 15px;
+}
+
+.cv .box1 {
+  text-align: center;
+  padding: 10%;
+}
+
+.cv .box1 .profile-img {
+  height: 160px;
+  width: 160px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+.cv .box1 p {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 180%;
+  color: #606060;
+}
+
+.cv .box1 p span {
+  font-weight: 400;
+}
+
+.cv .box2 {
+  padding: 2% 8% 2% 4%;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  grid-row: 2/4;
+}
+
+.cv .box2 h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: black;
+}
+
+.cv .box2 p {
+  font-size: 0.875rem;
+  line-height: 220%;
+}
+
+.cv .box3 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 2;
+  grid-row: 4/6;
+}
+
+.cv .box4 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+  grid-row: 3/6;
 }
 /*# sourceMappingURL=style.css.map */

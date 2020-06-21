@@ -130,6 +130,13 @@ nav a:hover {
 
 .projekter .project-box {
   background-color: #C4C4C4;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.projekter .project-box:hover {
+  -webkit-transform: scale(1.015);
+          transform: scale(1.015);
 }
 
 .section-h2 {

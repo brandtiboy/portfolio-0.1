@@ -7,7 +7,12 @@
 
     .project-box {
         background-color: #C4C4C4;
-    }  
+        transition: 0.3s;
+    }
+    
+    .project-box:hover {
+        transform: scale(1.015);
+    }
 }
 
 .section-h2 {

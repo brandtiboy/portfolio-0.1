@@ -1,0 +1,19 @@
+.projekter {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 2fr;
+    grid-gap: 25px;
+    margin-bottom: 15%;
+
+    .project-box {
+        background-color: #C4C4C4;
+    }
+
+    .section-h2 {
+        font-weight: 600;
+        font-size: 2rem;
+        padding: 3.2rem 0;
+        grid-column: 1/3;
+    }
+}
+

@@ -2,11 +2,11 @@
 
 ### Build with:
 
-..* HTML
-..* CSS / SASS
-..* CSS Flexbox
-..* CSS Grid
+* HTML
+* CSS / SASS
+* CSS Flexbox
+* CSS Grid
 
 ### Projects added:
 
-..* Converter build with HTML, CSS and JS
+* Converter build with HTML, CSS and JS

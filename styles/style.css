@@ -315,4 +315,20 @@ nav #logo {
     grid-row: 3/7;
   }
 }
+
+footer {
+  background-color: #FACECB;
+  height: 800px;
+  text-align: center;
+}
+
+footer li {
+  display: inline-block;
+  padding: 1rem;
+}
+
+footer hr {
+  width: 80%;
+  border: 1px solid #333232;
+}
 /*# sourceMappingURL=style.css.map */

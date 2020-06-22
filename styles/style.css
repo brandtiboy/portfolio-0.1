@@ -294,36 +294,30 @@ nav #logo {
   .cv {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    -ms-grid-rows: 10% 10% 3fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 10% 10% 3fr 1fr 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: ".section-h2" ".box1" ".box2" ".box3" ".box4" ".box5";
   }
   .cv .section-h2 {
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;
-    grid-column: 1/2;
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 1;
-    grid-row: 1/2;
+    grid-area: section-h2;
   }
   .cv .cv-box {
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;
-    grid-column: 1/2;
+    grid-area: cv-box;
   }
   .cv .box1 {
-    -ms-grid-row: 2;
-    -ms-grid-row-span: 1;
-    grid-row: 2/3;
+    grid-area: box1;
   }
   .cv .box2 {
-    -ms-grid-row: 3;
-    -ms-grid-row-span: 1;
-    grid-row: 3/4;
+    grid-area: box2;
   }
   .cv .box3 {
-    -ms-grid-row: 3;
-    -ms-grid-row-span: 1;
-    grid-row: 3/4;
+    grid-area: box3;
+  }
+  .cv .box4 {
+    grid-area: box4;
+  }
+  .cv .box5 {
+    grid-area: box5;
   }
 }
 

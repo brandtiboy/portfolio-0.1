@@ -99,28 +99,41 @@
 @media screen and (max-width: 1300px) {
     .cv {
         grid-template-columns: 1fr;
-        grid-template-rows: 10% 10% 3fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        ".section-h2"
+        ".box1"
+        ".box2"
+        ".box3"
+        ".box4"
+        ".box5";
 
         .section-h2 {
-            grid-column: 1/2;
-            grid-row: 1/2;
+            grid-area: section-h2;
         }
     
         .cv-box {
-            grid-column: 1/2;
-
+            grid-area: cv-box;
         }
     
         .box1 {
-            grid-row: 2/3;
+            grid-area: box1;
         }
 
         .box2 {
-            grid-row: 3/4;
+            grid-area: box2;
         }
 
         .box3 {
-            grid-row: 3/4;
+            grid-area: box3;
+        }
+
+        .box4 {
+            grid-area: box4;
+        }
+
+        .box5 {
+            grid-area: box5;
         }
     }
 }

@@ -117,6 +117,12 @@ nav #logo {
   margin-bottom: 12%;
 }
 
+@media screen and (max-width: 1300px) {
+  nav li a {
+    display: none;
+  }
+}
+
 .projekter {
   display: -ms-grid;
   display: grid;
@@ -288,8 +294,8 @@ nav #logo {
   .cv {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    -ms-grid-rows: 10% 10% 2fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 10% 10% 2fr 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: 10% 10% 3fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 10% 10% 3fr 1fr 1fr 1fr 1fr 1fr;
   }
   .cv .section-h2 {
     -ms-grid-column: 1;
@@ -311,8 +317,13 @@ nav #logo {
   }
   .cv .box2 {
     -ms-grid-row: 3;
-    -ms-grid-row-span: 4;
-    grid-row: 3/7;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+  }
+  .cv .box3 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
   }
 }
 
@@ -354,5 +365,11 @@ footer .bottom {
   -ms-grid-row: 4;
   -ms-grid-row-span: 1;
   grid-row: 4/5;
+}
+
+@media screen and (max-width: 1300px) {
+  h2 {
+    font-size: 2rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

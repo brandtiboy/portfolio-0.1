@@ -26,3 +26,9 @@ footer {
         grid-row: 4/5;
     }
 }
+
+@media screen and (max-width: 1300px) {
+    h2 {
+        font-size: 2rem;
+    }
+}

@@ -37,3 +37,9 @@ nav {
         margin-bottom: 12%;
     }
 }
+
+@media screen and (max-width: 1300px) {
+    nav li a {
+        display: none;
+    }
+}

@@ -320,6 +320,12 @@ footer {
   background-color: #FACECB;
   height: 800px;
   text-align: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 1fr 2fr 1fr 1fr;
+      grid-template-rows: 1fr 2fr 1fr 1fr;
 }
 
 footer li {
@@ -330,5 +336,23 @@ footer li {
 footer hr {
   width: 80%;
   border: 1px solid #333232;
+}
+
+footer .part1 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+}
+
+footer .bottom {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4/5;
 }
 /*# sourceMappingURL=style.css.map */

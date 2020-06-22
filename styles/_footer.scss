@@ -2,6 +2,9 @@ footer {
     background-color: #FACECB;
     height: 800px;
     text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr 1fr;
 
     li {
         display: inline-block;
@@ -11,5 +14,15 @@ footer {
     hr {
         width: 80%;
         border: 1px solid #333232;
+    }
+
+    .part1 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .bottom {
+        grid-column: 1/2;
+        grid-row: 4/5;
     }
 }

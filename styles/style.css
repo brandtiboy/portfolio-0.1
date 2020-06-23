@@ -118,6 +118,9 @@ nav #logo {
 }
 
 @media screen and (max-width: 1300px) {
+  main {
+    width: 90%;
+  }
   nav li a {
     display: none;
   }
@@ -304,31 +307,52 @@ nav #logo {
   background-size: cover;
 }
 
+.cv button {
+  display: none;
+}
+
 @media screen and (max-width: 1300px) {
   .cv {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
-        grid-template-areas: ".section-h2" ".box1" ".box2" ".box3" ".box4" ".box5";
+        grid-template-areas: ".section-h2" ".box1" ".box2-btn" ".box2" ".box3-btn" ".box3" ".box4-btn" ".box4" ".box5-btn" ".box5";
+  }
+  .cv button {
+    display: block;
   }
   .cv .section-h2 {
     grid-area: section-h2;
   }
   .cv .cv-box {
     grid-area: cv-box;
+    display: none;
   }
   .cv .box1 {
     grid-area: box1;
+    display: block;
+  }
+  .cv .box2-btn {
+    grid-area: box2-btn;
   }
   .cv .box2 {
     grid-area: box2;
   }
+  .cv .box3-btn {
+    grid-area: box3-btn;
+  }
   .cv .box3 {
     grid-area: box3;
   }
+  .cv .box4-btn {
+    grid-area: box4-btn;
+  }
   .cv .box4 {
     grid-area: box4;
+  }
+  .cv .box5-btn {
+    grid-area: box5-btn;
   }
   .cv .box5 {
     grid-area: box5;

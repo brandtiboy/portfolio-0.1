@@ -94,6 +94,10 @@
         background-image: url(../img/plant-placeholder.jpg);
         background-size: cover;
     }
+
+    button {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1300px) {
@@ -103,10 +107,18 @@
         grid-template-areas: 
         ".section-h2"
         ".box1"
+        ".box2-btn"
         ".box2"
+        ".box3-btn"
         ".box3"
+        ".box4-btn"
         ".box4"
+        ".box5-btn"
         ".box5";
+
+        button {
+            display: block;
+        }
 
         .section-h2 {
             grid-area: section-h2;
@@ -114,22 +126,40 @@
     
         .cv-box {
             grid-area: cv-box;
+            display: none;
         }
     
         .box1 {
             grid-area: box1;
+            display: block;
+        }
+
+        .box2-btn {
+            grid-area: box2-btn;
         }
 
         .box2 {
             grid-area: box2;
         }
 
+        .box3-btn {
+            grid-area: box3-btn;
+        }
+
         .box3 {
             grid-area: box3;
         }
 
+        .box4-btn {
+            grid-area: box4-btn;
+        }
+
         .box4 {
             grid-area: box4;
+        }
+
+        .box5-btn {
+            grid-area: box5-btn;
         }
 
         .box5 {

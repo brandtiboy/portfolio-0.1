@@ -42,4 +42,17 @@ nav {
     nav li a {
         display: none;
     }
+
+    .forside {
+
+        h3 {
+            font-size: 1rem;
+            margin: 8% 0;
+        }
+
+        .hero-img {
+            margin-bottom: 0;
+            height: 300px;
+        }
+    }
 }

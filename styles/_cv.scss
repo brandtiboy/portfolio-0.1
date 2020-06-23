@@ -102,8 +102,24 @@
 
 @media screen and (max-width: 1300px) {
     .cv {
-        grid-template-columns: 1fr;
+        display: inline-block;
+        width: 95%;
+
+        button {
+            display: block;
+        }
+
+        .cv-box {
+            display: none;
+        }
+
+        .box1 {
+            padding: 20px;
+            display: block;
+        }
+        /*grid-template-columns: 1fr;
         grid-template-rows: 1fr;
+        grid-gap: 15px;
         grid-template-areas: 
         ".section-h2"
         ".box1"
@@ -125,7 +141,6 @@
         }
     
         .cv-box {
-            grid-area: cv-box;
             display: none;
         }
     
@@ -165,5 +180,6 @@
         .box5 {
             grid-area: box5;
         }
+    } */
     }
 }

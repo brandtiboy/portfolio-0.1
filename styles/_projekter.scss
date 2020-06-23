@@ -24,7 +24,8 @@
 
 @media screen and (max-width: 1300px) {
     .projekter {
-        grid-template-columns: 1fr;
+        display: inline-block;
+        /*grid-template-columns: 1fr;
         //grid-template-rows: 1fr;
         grid-template-areas: 
         ".section-h2"
@@ -51,6 +52,6 @@
     
         .project2-text {
             grid-area: project2-text;
-        }
+        } */
     }
 }

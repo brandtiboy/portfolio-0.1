@@ -8,6 +8,7 @@
     .project-box {
         background-color: #C4C4C4;
         transition: 0.3s;
+        height: 400px;
     }
     
     .project-box:hover {
@@ -24,34 +25,15 @@
 
 @media screen and (max-width: 1300px) {
     .projekter {
-        display: inline-block;
-        /*grid-template-columns: 1fr;
-        //grid-template-rows: 1fr;
-        grid-template-areas: 
-        ".section-h2"
-        ".project1"
-        ".project1-text"
-        ".project2"
-        ".project2-text";
+        display: inline;
+    }
+}
 
-        .section-h2 {
-            grid-area: section-h2;
+@media screen and (max-width: 630px) { 
+    .projekter {
+        .project-box {
+            height: 250px;
+            margin-top: 30px
         }
-    
-        .project1 {
-            grid-area: project1;
-        }
-    
-        .project1-text {
-            grid-area: project1-text;
-        }
-    
-        .project2 {
-            grid-area: project2;
-        }
-    
-        .project2-text {
-            grid-area: project2-text;
-        } */
     }
 }

@@ -132,7 +132,7 @@ nav #logo {
     font-size: 2.2rem;
   }
   .forside h3 {
-    font-size: 0.92rem;
+    font-size: 0.90rem;
     margin: 3% 0;
   }
   .forside .hero-img {
@@ -140,7 +140,21 @@ nav #logo {
   }
   .forside .mobile-hero-img {
     display: inline-block;
-    height: 600px;
+    height: 500px;
+    overflow: hidden;
+    margin: 4% 0 0 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .forside h2 {
+    font-size: 2rem;
+  }
+  .forside h3 {
+    font-size: 0.78rem;
+  }
+  .forside .mobile-hero-img {
+    display: inline-block;
     overflow: hidden;
     margin: 4% 0 0 0;
   }
@@ -486,7 +500,13 @@ footer .bottom {
 
 @media screen and (max-width: 1300px) {
   h2 {
-    font-size: 2rem;
+    font-size: 2.7rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  h2 {
+    font-size: 1.5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

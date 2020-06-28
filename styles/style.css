@@ -209,6 +209,9 @@ nav #logo {
   grid-gap: 25px;
   margin-bottom: 15%;
   color: #363636;
+  /* Style the button that is used to open and close the collapsible content */
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  /* Style the collapsible content. Note: hidden by default */
 }
 
 .cv h3 {
@@ -322,6 +325,30 @@ nav #logo {
   display: none;
 }
 
+.cv .collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  margin: 5% 0;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.cv .active, .cv .collapsible:hover {
+  background-color: #ccc;
+}
+
+.cv .content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
 @media screen and (max-width: 1300px) {
   .cv {
     display: inline-block;
@@ -396,6 +423,7 @@ nav #logo {
   }
   .cv .cv-box {
     display: none;
+    border-radius: 0;
   }
   .cv .box1 {
     padding: 20px;

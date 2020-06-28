@@ -173,15 +173,19 @@ nav #logo {
 }
 
 .projekter .project-box {
-  background-color: #C4C4C4;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  height: 400px;
+  border: 3px solid #7EB1D7;
 }
 
 .projekter .project-box:hover {
   -webkit-transform: scale(1.015);
           transform: scale(1.015);
+}
+
+.projekter img {
+  max-height: 400px;
+  max-width: 100%;
 }
 
 .section-h2 {

@@ -36,6 +36,10 @@ nav {
         overflow: hidden;
         margin-bottom: 12%;
     }
+
+    .mobile-hero-img {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1300px) {
@@ -49,14 +53,24 @@ nav {
 
     .forside {
 
+        h2 {
+            font-size: 2.2rem;
+        }
+
         h3 {
-            font-size: 0.85rem;
+            font-size: 0.92rem;
             margin: 3% 0;
         }
 
         .hero-img {
-            margin-bottom: 0;
-            height: 300px;
+            display: none;
+        }
+
+        .mobile-hero-img {
+            display: inline-block;
+            height: 600px;
+            overflow: hidden;
+            margin: 4% 0 0 0;
         }
     }
 }

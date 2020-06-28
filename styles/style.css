@@ -148,13 +148,14 @@ nav #logo {
 
 @media screen and (max-width: 650px) {
   .forside h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .forside h3 {
-    font-size: 0.78rem;
+    font-size: 0.70rem;
   }
   .forside .mobile-hero-img {
     display: inline-block;
+    height: 300px;
     overflow: hidden;
     margin: 4% 0 0 0;
   }

@@ -25,6 +25,23 @@ footer {
         grid-column: 1/2;
         grid-row: 4/5;
     }
+
+    .kaffe {
+        margin-top: 30px;
+        margin-right: 10px;
+        position: relative;
+        animation: kaffeAnimation 15s ease-in-out infinite alternate;
+    }
+
+    @keyframes kaffeAnimation {
+        0% {
+            transform: translateY(-5px) rotate(8deg) translateX(50px);
+        }
+
+        100% {
+            transform: translateY(5px) rotate(-10deg) translateX(-10px);
+        }
+    }
 }
 
 @media screen and (max-width: 1300px) {

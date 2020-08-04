@@ -175,17 +175,19 @@ nav #logo {
 .projekter .project-box {
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  border: 3px solid #7EB1D7;
+  border: 3px solid #7eb1d7;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.projekter .project-box img {
+  height: auto;
+  max-width: 100%;
 }
 
 .projekter .project-box:hover {
   -webkit-transform: scale(1.015);
           transform: scale(1.015);
-}
-
-.projekter img {
-  max-height: 400px;
-  max-width: 100%;
 }
 
 .section-h2 {
@@ -205,7 +207,7 @@ nav #logo {
 
 @media screen and (max-width: 630px) {
   .projekter .project-box {
-    height: 250px;
+    height: auto;
     margin-top: 30px;
   }
 }

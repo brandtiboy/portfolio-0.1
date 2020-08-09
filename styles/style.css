@@ -129,6 +129,10 @@ nav #logo {
   display: none;
 }
 
+.forside .subtitle {
+  max-width: 100%;
+}
+
 @media screen and (max-width: 1300px) {
   main {
     width: 85%;
@@ -152,6 +156,9 @@ nav #logo {
     overflow: hidden;
     margin: 4% 0 0 0;
   }
+  .forside .subtitle {
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -166,6 +173,9 @@ nav #logo {
     height: 300px;
     overflow: hidden;
     margin: 4% 0 0 0;
+  }
+  .forside .subtitle {
+    max-width: 100%;
   }
 }
 

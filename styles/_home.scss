@@ -40,6 +40,10 @@ nav {
   .mobile-hero-img {
     display: none;
   }
+
+  .subtitle {
+      max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 1300px) {
@@ -71,6 +75,10 @@ nav {
       overflow: hidden;
       margin: 4% 0 0 0;
     }
+
+    .subtitle {
+        max-width: 100%;
+    }
   }
 }
 
@@ -89,6 +97,10 @@ nav {
       height: 300px;
       overflow: hidden;
       margin: 4% 0 0 0;
+    }
+
+    .subtitle {
+        max-width: 100%;
     }
   }
 }

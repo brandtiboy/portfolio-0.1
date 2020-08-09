@@ -235,6 +235,11 @@ nav #logo {
   border: 2px solid #74b9ff;
 }
 
+.about .cv-button:hover {
+  background-color: #74b9ff;
+  color: white;
+}
+
 footer {
   background-color: #FACECB;
   height: 600px;

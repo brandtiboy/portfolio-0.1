@@ -26,9 +26,13 @@ h3 {
     line-height: 180%;
 }
 
-h3 > span {
+h3 > span > a {
     font-style: italic;
     color: #7EB1D7;
+
+    &:hover {
+        color: black;
+    }
 }
 
 h4 {

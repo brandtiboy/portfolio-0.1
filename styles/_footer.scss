@@ -1,10 +1,11 @@
 footer {
     background-color: #FACECB;
-    height: 800px;
+    height: 600px;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 2fr 1fr 1fr;
+    margin-top: 12%;
 
     li {
         display: inline-block;
@@ -25,23 +26,6 @@ footer {
         grid-column: 1/2;
         grid-row: 4/5;
     }
-
-    .kaffe {
-        margin-top: 30px;
-        margin-right: 10px;
-        position: relative;
-        animation: kaffeAnimation 15s ease-in-out infinite alternate;
-    }
-
-    @keyframes kaffeAnimation {
-        0% {
-            transform: translateY(-5px) rotate(8deg) translateX(50px);
-        }
-
-        100% {
-            transform: translateY(5px) rotate(-10deg) translateX(-10px);
-        }
-    }
 }
 
 @media screen and (max-width: 1300px) {
@@ -51,6 +35,10 @@ footer {
 }
 
 @media screen and (max-width: 650px) {
+    footer {
+        height: 400px;
+    }
+
     h2 {
         font-size: 1.5rem;
     }

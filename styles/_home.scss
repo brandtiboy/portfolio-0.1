@@ -1,11 +1,11 @@
 main {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
 nav {
     display: flex;
-    width: 100%;
+    width: 85%;
     margin: auto;
     padding: 3rem 0rem;
     justify-content: space-between;
@@ -13,7 +13,7 @@ nav {
 
     ul {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         flex: 1;
     }
     #logo {
@@ -34,7 +34,7 @@ nav {
     .hero-img {
         height: 550px;
         overflow: hidden;
-        margin-bottom: 12%;
+        margin-bottom: 5%;
     }
 
     .mobile-hero-img {

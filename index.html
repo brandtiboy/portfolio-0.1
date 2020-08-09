@@ -14,28 +14,27 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
+    <!-- Navigation area -->
+    <nav>
+      <h1 id="logo"><a href="index.html">Frederik Brandt.</a></h1>
+      <ul>
+        <li><a href="#projekt-link">Projects</a></li>
+        <li><a href="#footer-link">Contact</a></li>
+      </ul>
+    </nav>
     <main>
-      <!-- Navigation area -->
-      <nav>
-        <h1 id="logo"><a href="index.html">Frederik Brandt.</a></h1>
-        <ul>
-          <li><a href="#projekt-link">Projekter</a></li>
-          <li><a href="#cv-link">CV</a></li>
-          <li><a href="#footer-link">Kaffe?</a></li>
-        </ul>
-      </nav>
-
       <!-- Hero area -->
       <section class="forside">
         <div class="hero">
-          <h2>Skaber løsninger med <br />fokus på brugernes problemer.</h2>
+          <h2>Creating solutions <br />with the users in mind.</h2>
           <h3>
-            Passioneret og lærenem Cand.it i Webkommunikation <br />
-            der brænder for teknologi, UX, brugerstudier <br />
-            og udvikling. <span>Lad os tage en snak!</span>
+            Cand.it graduate with a passion
+            for technology, UX, <br />
+            user-studies and development. <span>Let's have a talk!</span>
           </h3>
           <div class="hero-img">
             <img
@@ -56,21 +55,24 @@
 
       <!-- Project area -->
       <section class="projekter">
-        <h2 id="projekt-link" class="section-h2">Projekter.</h2>
+        <h2 id="projekt-link" class="section-h2">Projects</h2>
 
         <!-- Project 1 -->
         <div>
           <div class="project-box project1">
             <a
               href="https://www.figma.com/proto/nMMM1nKHh4H0BZXW3LDPsq/webdev-portfolio?node-id=19%3A2&viewport=-2077%2C-8686%2C0.8388055562973022&scaling=scale-down-width"
-              ><img src="img/language-learning-project.PNG" alt=""
+              ><img src="img/proj1.png" alt=""
             /></a>
           </div>
-          <p class="project1-text">
-            <strong>Systemudvikling og UX Case Study</strong>
+          <h4 class="project-headline">
+            System development and UX Case Study - 
             <a href="https://github.com/brandtiboy/slapp-game"
               >Github <i class="fab fa-github"></i
-            ></a>
+            ></a></h4>
+          <p class="project-text">
+            University project where we built a simple language learning game <br>
+            using Phaser.io and the agile development methodology.
           </p>
         </div>
 
@@ -78,14 +80,19 @@
         <div>
           <div class="project-box project3">
             <a href="https://convert-stuff.vercel.app/"
-              ><img src="img/project1.PNG" alt=""
+              ><img src="img/proj2.png" alt=""
             /></a>
           </div>
-          <p class="project3-text">
-            <strong>Unit Converter</strong>
+          <h4 class="project-headline">
+            Unit Converter - 
             <a href="https://github.com/brandtiboy/ConvertStuff"
               >Github <i class="fab fa-github"></i
             ></a>
+          </h4>
+          <p class="project-text">
+            I designed and built a simple unit converter to develop my <br>
+            JavaScript skills. I'm currently working on a React ecommerce
+            project.
           </p>
         </div>
 
@@ -93,14 +100,17 @@
         <div>
           <div class="project-box project4">
             <a href="https://www.getawayrejser.dk/"
-              ><img src="img/project3.PNG" alt=""
+              ><img src="img/proj3.png" alt=""
             /></a>
           </div>
-          <p class="project4-text">
-            <strong
-              >Udvikling og producering af affiliate rejseblog i
-              WordPress</strong
-            >
+          <h4 class="project-headline">
+            Development and producing of an affiliate travel blog in
+            WordPress
+          </h4>
+          <p class="project-text">
+            Personal project to develop my content writing skills
+            alongside building<br> a website using a theme in WordPress.
+            The project is on standby because of Covid-19.
           </p>
         </div>
 
@@ -108,178 +118,40 @@
         <div>
           <div class="project-box project2">
             <a href="https://monster-rolodex-git-master.brandtiboy.vercel.app/"
-              ><img src="img/monster-project.PNG" alt=""
+              ><img src="img/proj4.png" alt=""
             /></a>
           </div>
-          <p class="project2-text">
-            <strong>Udvikling af React side med search feature</strong>
+          <h4 class="project-headline">
+            Udvikling af React side med search feature - 
             <a href="https://github.com/brandtiboy/monster-rolodex"
               >Github <i class="fab fa-github"></i
             ></a>
+          </h4>
+          <p class="project-text">
+            My first React project ever. It's a simple search function
+            for searching<br> monsters using an API.
           </p>
         </div>
       </section>
 
-      <!-- Project area -->
-      <section class="cv">
-        <h2 id="cv-link" class="section-h2">Curriculum Vitae.</h2>
-
-        <div class="cv-box box1">
-          <img class="profile-img" src="img/profil.PNG" alt="" />
-          <p>
-            Frederik Sander Brandt <br />
-            <span>Cand.it - Webkommunikation</span>
-          </p>
-        </div>
-
-        <button class="box2-btn collapsible">Resume</button>
-        <div class="cv-box box2 content" id="resume_toggle">
-          <h3>Resume</h3>
-          <p>
-            Cand.it med 4 års studiejob erfaring inden for markedsføring hos
-            webbureauet Webstarters. Mit studie har gjort mig i stand til at
-            bidrage med research, analysering og vurdering af organisationers
-            kommunikative indsats med fokus på brugerinddragelse. Feltarbejde
-            kan bidrage til en virksomheds forståelse af deres brugere og
-            brugernes oplevelse af virksomheden. Studiejobbet har ligeledes
-            gjort mig i stand til at arbejde i en organisatorisk kontekst uden
-            for det akademiske felt, hvor tid, kunder og produktivitet er i
-            højsædet.
-          </p>
-          <p>
-            De kompetencer jeg har opnået fra min bachelor og kandidat er bl.a.
-            brugerundersøgelse, evaluering af brugergrænseflader i form af UX og
-            usability, IT-didaktik i organisationer, interaktionsdesign,
-            systemudvikling i form af agile development, projektledelse,
-            programmering, interaktionsdesign, organisationskommunikation,
-            webformidling, narratives in and around organizations og
-            værdibaseret design.
-          </p>
-          <p>
-            Som person er jeg en meget kreativ og arbejdsom ung man. De fleste
-            vil beskrive mig som en positiv og engageret person, som arbejder
-            godt i grupper. Mine faglige- og personlige kompetencer kan derfor
-            bidrage til den respektive stilling og jeres virksomhed generelt
-            set.
-          </p>
-        </div>
-        <button class="box3-btn collapsible">Personligt</button>
-        <div class="cv-box box3 content" id="personligt_toggle">
-          <h3>Personligt</h3>
-          <p>
-            I min fritid nyder jeg at spille competetive computerspil. Jeg har
-            altid været et konkurrencemenneske og derfor spillede jeg også
-            fodbold frem til gymnasiet. Her nåede jeg at spille i Parken (FCKs
-            stadion) i Skolefodbold finalen og jeg vandt firmaCS (firma
-            Counter-Strike turnering) med Webstarters tilbage i 2018. Jeg elsker
-            også at være kreativ i form af at male, redigere video og lignende.
-            Ellers kan jeg godt lide at være aktiv, være sammen med familie og
-            venner og rejse. Derudover er jeg begyndt at læse bøger om self
-            development, virksomheder og kommunikation. Er bl.a. i gang med The
-            Lean Startup af Eric Ries.
-          </p>
-        </div>
-        <button class="box4-btn collapsible">Kompetencer</button>
-        <div class="cv-box box4 content" id="kompetencer_toggle">
-          <h3>Information</h3>
-          <a href="mailto:kaffe@frederikbrandt.dk"
-            ><i class="fas fa-envelope"></i> Email</a
-          >
-          <br />
-          <a href="https://www.linkedin.com/in/frederik-sander-brandt/"
-            ><i class="fab fa-linkedin"></i> LinkedIn</a
-          >
-          <br />
-          <a href="https://github.com/brandtiboy"
-            ><i class="fab fa-github"></i> Github</a
-          >
-
-          <h3>Kompetencer</h3>
-          <ul>
-            <li>
-              HTML & CSS <i class="fab fa-html5"></i>
-              <i class="fab fa-css3"></i>
-            </li>
-            <li>JavaScript <i class="fab fa-js-square"></i></li>
-            <li>Agile Development <i class="fas fa-code"></i></li>
-            <li>Git <i class="fab fa-git"></i></li>
-            <li>Brugerundersøgelse <i class="fas fa-users"></i></li>
-          </ul>
-
-          <h3>Uddannelse</h3>
-          <p>
-            Kandidatgrad - Webkommunikation <br />
-            <span>SDU Kolding, 2018 - 2020</span>
-          </p>
-
-          <p>
-            Bachelor - Informationsvidenskab, IT og interaktionsdesign <br />
-            <span>SDU Kolding, 2015 - 2018</span>
-          </p>
-
-          <h3>Sprog</h3>
-          <p>
-            Dansk <br />
-            <span>Modersmål</span>
-          </p>
-          <p>
-            Engelsk <br />
-            <span>Proficient</span>
-          </p>
-
-          <h3>Publikationer</h3>
-          <p>
-            <a
-              href="https://www.billy.dk/blog/5-gode-raad-til-dig-der-vil-i-gang-med-din-foerste-webshop/"
-              >“5 gode råd til dig der vil i gang med din første webshop”.</a
-            >
-            Billy.dk 9. november 2017
-            <span
-              >Gæsteblogindlæg for virksomheden Billy’s Billing, som er en af de
-              største økonomi systemer i Danmark.</span
-            >
-          </p>
-        </div>
-        <button class="box5-btn collapsible">Akademiske projekter</button>
-        <div class="cv-box box5 content" id="uni_toggle">
-          <h3>Akademiske projekter</h3>
-          <p><strong>Bachelor projekt</strong></p>
-          <p>
-            Mit bachelor projekt omhandlede Esport undervisning på en
-            efterskole. Her analyserede vi den nuværende undervisningspraksis,
-            hvor vi indsamlede videodata af undervisningen og lavede interviews,
-            som blevet analyseret i dybden. Det blev grundlag for udviklingen af
-            et designforslag der kunne forbedre undervisningen. Feltarbejdet
-            opstillede en række kravspecifikationer, som blev grundlaget for
-            vores designforslag, som var online video undervisning, som skulle
-            supplere den nuværende praksis. Vi nåede at bygge et minimal viable
-            produkt i form af en hjemmeside og en kort video, som skulle fungere
-            som vores low-fidelity prototype. I dag er der flere succesfulde
-            virksomheder, som netop har anvendt de findings vi lavede.
-          </p>
-          <p><strong>Specialeafhandling</strong></p>
-          <p>
-            D. 2 juni 2020 afleverede vi vores specialeafhandling. Afgrænsningen
-            for specialet var de digitalt indfødte i form af Generation Z. Vi
-            ønskede at undersøge deres brug af internettet og hvordan gaming- og
-            streaming industrien har tilpasset sig denne adfærd og brugt den til
-            deres fordel. Rent teoretisk tog vi udgangspunkt i emnerne
-            disruption og innovation, som opleves på tværs af alle brancher.
-            Spotify disruptede hele musik branchen og Netflix måden vi ser film
-            og serier på. Igennem en analyse af gaming- og streaming industrien,
-            som har succes med fremtidens generation, kunne vi opstille fem
-            tendenser. Disse fem tendenser forsøgte vi at efterteste på to
-            virksomheder igennem en Business Model Canvas, hvor vi forsøgte at
-            anvende tendenserne og tænke kreativt. En af virksomhederne var
-            Roskilde Festival, hvor vores tendenser lagde op til en online
-            festival, hvor vi helt konkret kom med en række forslag til det
-            projekt. 3 uger efter analysen annoncerede Jelling Festival en
-            online festival og det samme gjorde Covidhagen. Vores
-            specialeafhandling har derfor på sin vis forudset fremtiden og
-            tendenserne kan i nogen grad overføres på tværs af brancher.
-          </p>
-        </div>
-        <div class="cv-box box6"></div>
+      <!-- About section -->
+      <section class="about">
+        <h2>About me</h2>
+        <p><strong>I solve users problems through user-centric design.</strong></p>
+        <p>I just graduated University with a <strong><a href="https://www.sdu.dk/en/uddannelse/kandidat/cand_it_webcommunication_design">MSc in Webcommunication and Design</a></strong> from Syddansk Universitet in Kolding, Denmark.
+          My most recent work was my Master thesis, where we wanted to investigate generation z and their use of the internet 
+          and how the gaming- and streaming industries have adopted to that behaviour and used it to their advantage. <br><br>
+          After the research of disruption and an analysis of generation z and the gaming- and streaming industries, we 
+          established five tendencies. They were tested on two business cases using a <strong><a href="https://en.wikipedia.org/wiki/Business_Model_Canvas">Business Model Canvas</a></strong>. Some of the 
+          tendencies actually predicted the near future and therefore potentially could secure businesses from suffering 
+          from a potential disruption in their industry.</p>
+          <p>Througout the University i have worked on several human-centred projects with both theory, deliverables and 
+          design methods. I love working with and for the users. My master thesis also showcased how much power the users 
+          have today and that user-generated platforms have a huge success.</p>
+          <p>If you would like to know more about me, then go ahead and download my resume, send me LinkedIn message or 
+          invite me out for a coffee. I would love to have a have a conversation with you, so don't hesitate to send me 
+          a message.</p>
+          <a class="cv-button" href="www.frederikbrandt.dk/CV.pdf">VIEW RESUME</a>
       </section>
     </main>
 
@@ -287,13 +159,10 @@
     <footer id="footer-link">
       <div class="part1">
         <h2>
-          Lad os drikke en kop kaffe, <br />
-          og se om vi er et match.
+          Let's drink a coffee, <br />
+          and see if we are a match.
         </h2>
         <a href="mailto:kaffe@frederikbrandt.dk">KAFFE@FREDERIKBRANDT.DK</a>
-        <div class="kaffe">
-          <img src="img/coffee.png" alt="" />
-        </div>
       </div>
       <div class="bottom">
         <hr />
